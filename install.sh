@@ -8,7 +8,6 @@ echo "Installing neovim"
 yay -S nvim ripgrep
 
 echo "Copy .dotfiles"
-echo $DOTFILE_PATH
 cd $DOTFILE_PATH
 cp -r ./.config/* ~/.config/
 
