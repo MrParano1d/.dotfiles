@@ -61,11 +61,18 @@ return packer.startup(function(use)
 	use "williamboman/nvim-lsp-installer" -- simple to use language server installer
 	use "jose-elias-alvarez/null-ls.nvim" -- for formatters and linters
 
+  -- Golang
+  use 'ray-x/go.nvim'
+
   -- Telescope
 	use "nvim-telescope/telescope.nvim"
 
 	-- Treesitter
 	use "nvim-treesitter/nvim-treesitter"
+
+  -- Git
+	use "lewis6991/gitsigns.nvim"
+  use { 'sindrets/diffview.nvim', requires = 'nvim-lua/plenary.nvim' }
 
   -- file explorer
   use {
