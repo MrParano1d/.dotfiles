@@ -54,6 +54,18 @@ return packer.startup(function(use)
   use "hrsh7th/cmp-path" -- path completions
   use "hrsh7th/cmp-cmdline" -- cmdline completions
   use "saadparwaiz1/cmp_luasnip" -- snippet completions
+  use "hrsh7th/cmp-nvim-lsp"
+
+  -- LSP
+	use "neovim/nvim-lspconfig" -- enable LSP
+	use "williamboman/nvim-lsp-installer" -- simple to use language server installer
+	use "jose-elias-alvarez/null-ls.nvim" -- for formatters and linters
+
+  -- Telescope
+	use "nvim-telescope/telescope.nvim"
+
+	-- Treesitter
+	use "nvim-treesitter/nvim-treesitter"
 
   -- file explorer
   use {
