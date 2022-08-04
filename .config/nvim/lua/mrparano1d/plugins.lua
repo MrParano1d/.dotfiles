@@ -71,10 +71,20 @@ return packer.startup(function(use)
   use("nvim-treesitter/nvim-treesitter", {
     run = ":TSUpdate"
   })
+
   -- Git
 	use "lewis6991/gitsigns.nvim"
   use { 'sindrets/diffview.nvim', requires = 'nvim-lua/plenary.nvim' }
   use "TimUntersberger/neogit"
+
+  -- Refactoring
+  use {
+    "ThePrimeagen/refactoring.nvim",
+    requires = {
+        {"nvim-lua/plenary.nvim"},
+        {"nvim-treesitter/nvim-treesitter"}
+    }
+  }
 
   -- file explorer
   use {

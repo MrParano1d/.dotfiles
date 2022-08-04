@@ -174,6 +174,11 @@ _G.packer_plugins = {
     path = "/home/mrparano1d/.local/share/nvim/site/pack/packer/start/popup.nvim",
     url = "https://github.com/nvim-lua/popup.nvim"
   },
+  ["refactoring.nvim"] = {
+    loaded = true,
+    path = "/home/mrparano1d/.local/share/nvim/site/pack/packer/start/refactoring.nvim",
+    url = "https://github.com/ThePrimeagen/refactoring.nvim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/mrparano1d/.local/share/nvim/site/pack/packer/start/telescope.nvim",
