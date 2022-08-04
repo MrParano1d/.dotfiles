@@ -119,6 +119,11 @@ _G.packer_plugins = {
     path = "/home/mrparano1d/.local/share/nvim/site/pack/packer/start/go.nvim",
     url = "https://github.com/ray-x/go.nvim"
   },
+  neogit = {
+    loaded = true,
+    path = "/home/mrparano1d/.local/share/nvim/site/pack/packer/start/neogit",
+    url = "https://github.com/TimUntersberger/neogit"
+  },
   ["null-ls.nvim"] = {
     loaded = true,
     path = "/home/mrparano1d/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
