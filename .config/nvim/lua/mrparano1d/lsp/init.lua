@@ -5,4 +5,4 @@ end
 
 require "mrparano1d.lsp.configs"
 require("mrparano1d.lsp.handlers").setup()
-require "mrparano1d.lsp.null-ls"
+-- require "mrparano1d.lsp.null-ls"
